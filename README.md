@@ -46,5 +46,28 @@ pwd
  - Now to check enter 
    ls -a or ls ( it will show the list of files in that directory )
    
+   <img width="310" alt="ls" src="https://user-images.githubusercontent.com/110182832/182133507-ce46bce9-12ca-44ae-81c2-b9bf0e841371.png">
+
+- Now run 
+- git add file name 
+- git add README.md
+- git status (the name of file should appear green)
+- git commit -m"message"
+- git branch -M main   
+- git remote add origin git@github.com:ArpitB95/eng122_week2.git ( You can copy this code from the steps shown in your git account)
+- git push -u origin main
+
+- Now go back to your git account and refresh it, you will find the file README.md in eng122_week2 repository
+
+- After pushing the file if it shows an below error 
+
+ <img width="288" alt="error" src="https://user-images.githubusercontent.com/110182832/182134577-071496df-1e8b-4c0e-88a0-d85af5671f2d.png">
+
+- Then enter this command and push again
+- eval "$(ssh-agent -s)"
+- ssh-add ~/.ssh/122
+- git push -u origin main
+
+- Now refresh the git account page and the file will be there.
 
 
