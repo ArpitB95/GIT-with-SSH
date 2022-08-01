@@ -1,5 +1,8 @@
 # GIT-with-SSH
 
+<img width="541" alt="git with ssh" src="https://user-images.githubusercontent.com/110182832/182138969-e7f19ad4-5793-474c-9e03-ccd3da1f095b.png">
+
+
 
 ## How to create repository in GITHUB and push/pull the file using ssh from GITBASH
 ## Follow these steps
